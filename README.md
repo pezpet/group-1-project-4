@@ -21,7 +21,7 @@ Please refer to the "Data Dictionary" section with the executive summary
 - Demographics data was cleaned of all erroneous values and formatted. Columns renamed.
 - Hate Crimes data 'County' and 'Agency' columns were mapped according to code numbers from the code book. Missing values filled.
 - Prosecution data cleaned of all erroneous values (e.g. "-" instead of 0). Reformatted to integers. County names normalized and all data was grouped and aggregated by county, thus adding data for all years together.
-- Prosecution rates were calculated for each county as Total Dispositions / Total Hate Crime Cases Referred.
+- Prosecution rates were calculated for each county as Total Dispositions / Total Hate Crime Cases Referred. THIS IS OUR TARGET VARIABLE.
 - Demographics data was added to each county in Hate Crimes and/or Prosecution DataFrames where relevant, thus creating Main DataFrames.
 - Files were saved in data folder.
 

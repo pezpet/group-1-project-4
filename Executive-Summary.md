@@ -20,7 +20,15 @@ One would think that hate crimes would decrease, but we are finding the opposite
 |prosecution_all_year|object|prosecution_all_year|Clean version of the prosecution all years before the merge. Helped to create EDA visuals
 
 **Summary Statistics**
-
+- Through EDA significant correlations were found between our target variable (prosecution rate) and demographic variables for counties in California.
+- Percent black population and Hispanic population are negatively correlated to amount of hate crimes per 1,000 persons.
+- Prosecution rates are positively correlated to percent black and hispanic populations.
+- Hate crimes by white population are correlated to percent white population.
+- Hate crimes by multi-racial population are correlated to percent multi-racial population.
+- White suspects are the most common for hate crimes in the data.
+- Anti-Black or African American is the most common hate crime bias.
+- Prosecution rates are normally distributed accross counties with some outliers in small counties.
+- Mean prosecution rate is 54.99%
 
 
 **Recommendations**
