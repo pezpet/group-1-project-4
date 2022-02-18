@@ -4,11 +4,22 @@ Our team's question: "How likely is it that a hate crime will face prosecution g
 *Please refer to the executive summary for greater detail about our question
 
 **Table of Contents**
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Model Designs
-5. Executive Summary Report
+1. code/
+    1. Data Cleaning
+    2. Exploratory Data Analysis (EDA)
+    3. EDA maps
+    4. Models (excluding Neural Networks)
+    5. Neural Network Model
+    6. Neural Network Model with Grid Searching
+2. data/
+    1. Base Data
+    2. Demographics Data
+    3. Modeling data
+3. plots/
+4. presentation/
+5. scratch/
+6. Executive Summary Report
+7. README.md
 
 **Executive Summary**
 Please refer to the "link" for the executive summary

@@ -38,8 +38,7 @@ Through the vast knowledge we have gained from tackling the social issue of hate
 3. Victims are more likely to report crimes if they know they will be prosecuted and pressuring prosecutors to have higher hate crime conviction rates.
 
 **Conclusions**
-(Did we answer the problem statement...?)
-
+All our models correctly classified prosecution rate levels to varying degrees of accuracy and balanced accuracy, but the main predictors in all models were demographic features of the counties where crimes were comitted. This means it wasn't possible to predict if a crime would be prosecuted based on it's particular details. We were able to predict prosecution of crimes mainly by information of the counties where they were comitted. This might suggest that hate crimes are prosecuted (or are only classified as hate crimes) in certain jurisdictions with specific demographic makeups such as significant percentages of different races as demostrated in EDA. Further research into this matter is warranted, and more granular data from DA offices could be helpful.
 
 In addition, our research has noticed a trend that hate crimes increase around momentous societal events. For example, in 2001, the 9/11 attacks, Muslim communities were severely targeted with hate crimes, or today around the Corona Virus pandemic, Asian American communities are the new targets for violence. With these events, it is more than enough reason to design random forest models to help increase the classification to help victims get their case to prosecution.
 
