@@ -1,7 +1,7 @@
 **Technical Report**
 
 **Problem Statement**
-Our team has the great honor of being invited to the "Social Impact Forum: How we use technology to help solve social issues in today's world." The topic we choose together is hate crimes. Due to the recent pandemic, hate crimes have increased, especially in the Asian American community. Although, due to increasing reports of hate crimes, does that mean a victim will find justice? So, the question we pose to answer is: "How likely is it that a hate crime will face prosecution given the specific characteristics and the demographics of the county where it occurred? We will determine what features will play a significant role in determining if the victim's case will face prosecution justice through our research. 
+Our team has the great honor of being invited to the "Social Impact Forum: How we use technology to help solve social issues in today's world." The topic we choose together is hate crimes. Due to the recent pandemic, hate crimes have increased, especially in the Asian American community. Although, due to increasing reports of hate crimes, does that mean a victim will find justice? So, the question we pose to answer is: "How likely is it that a hate crime will face prosecution given the specific characteristics of the crime and the demographics of the county where it occurred? We will determine what features will play a significant role in determining if the victim's case will face prosecution justice through our research. 
 
 Furthermore, we have focused on California because, according to the FBI, California has the highest bias-motivated hate crimes within the US for 2020. Therefore, we thought the best strategic plan to answer this question with great detail would be through data science and machine learning. Next, we thought it would be best to use classification models to help us infer correlations, derive insights, and design a system to help judge whether a hate crime will face prosecution within the victim's county.
 
@@ -20,7 +20,15 @@ One would think that hate crimes would decrease, but we are finding the opposite
 |prosecution_all_year|object|prosecution_all_year|Clean version of the prosecution all years before the merge. Helped to create EDA visuals
 
 **Summary Statistics**
-
+- Through EDA significant correlations were found between our target variable (prosecution rate) and demographic variables for counties in California.
+- Percent black population and Hispanic population are negatively correlated to amount of hate crimes per 1,000 persons.
+- Prosecution rates are positively correlated to percent black and hispanic populations.
+- Hate crimes by white population are correlated to percent white population.
+- Hate crimes by multi-racial population are correlated to percent multi-racial population.
+- White suspects are the most common for hate crimes in the data.
+- Anti-Black or African American is the most common hate crime bias.
+- Prosecution rates are normally distributed accross counties with some outliers in small counties.
+- Mean prosecution rate is 54.99%
 
 
 **Recommendations**
